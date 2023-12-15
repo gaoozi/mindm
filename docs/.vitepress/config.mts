@@ -7,6 +7,8 @@ import { contact } from './routes/contact.mts'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "江湖的思维宝库",
+  lang: 'zh-cn',
+  lastUpdated: true,
   description: "我来到 我看见 我记录",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -19,15 +21,18 @@ export default defineConfig({
     ],
 
     sidebar: {
-      '/notes': notes,
-      '/tools': tools,
-      '/help': help,
-      '/contact': contact,
+      '/notes/': notes,
+      '/tools/': tools,
+      '/help/': help,
+      '/contact/': contact,
     },
 
     darkModeSwitchLabel: '切换主题',
     sidebarMenuLabel: '菜单',
-    returnToTopLabel: '回到顶部',
+    returnToTopLabel: '返回顶部',
+    lastUpdated: {
+      text: '更新时间'
+    },
     docFooter: {
       prev: '上一页',
       next: '下一页'
@@ -36,5 +41,9 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/gaoozi' }
     ]
-  }
+  },
+  markdown: {
+    lineNumbers: true,
+  },
+  ignoreDeadLinks: true,
 })
