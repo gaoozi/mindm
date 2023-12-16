@@ -11,6 +11,8 @@ export default defineConfig({
   lastUpdated: true,
   description: "我来到 我看见 我记录",
   themeConfig: {
+    logo: '/logo.png',
+
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
@@ -40,7 +42,10 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/gaoozi' }
-    ]
+    ],
+    footer: {
+      copyright: "Copyright © 2023 江湖",
+    }
   },
   markdown: {
     lineNumbers: true,
