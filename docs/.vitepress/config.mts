@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 import { notes } from './routes/notes.mts'
 import { tools } from './routes/tools.mts'
-import { help } from './routes/help.mts'
+import { resources } from './routes/resources.mjs'
 import { contact } from './routes/contact.mts'
 
 // https://vitepress.dev/reference/site-config
@@ -18,14 +18,14 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '笔记', link: '/notes/'},
       { text: '工具', link: '/tools/' },
-      { text: '帮助', link: '/help/'},
+      { text: '资料', link: '/resources/'},
       { text: '联系方式', link: '/contact/'},
     ],
 
     sidebar: {
       '/notes/': notes,
       '/tools/': tools,
-      '/help/': help,
+      '/resources/': resources,
       '/contact/': contact,
     },
 
