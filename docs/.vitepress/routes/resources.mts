@@ -1,12 +1,15 @@
 
 export const resources = [
     {
-        text: '国内社区',
-        link: '/resources/community/',
+        text: '编程语言',
+        items: [
+            { text: 'Rust', link: "/resources/lang/rust/" },
+            { text: 'Go', link: "/resources/lang/go/" },
+        ]
     },
     {
-        text: 'Rust学习',
-        link: '/resources/rust/',
+        text: '国内社区',
+        link: '/resources/community/',
     },
     {
         text: '各种教程',
