@@ -5,6 +5,7 @@ export const resources = [
         items: [
             { text: 'Rust', link: "/resources/lang/rust/" },
             { text: 'Go', link: "/resources/lang/go/" },
+            { text: 'JavaScript', link: "/resources/lang/javascript/" },
         ]
     },
     {
