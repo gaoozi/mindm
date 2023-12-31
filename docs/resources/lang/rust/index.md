@@ -10,3 +10,6 @@
 - [Rust面试手册](https://github.com/imhq/rust-interview-handbook): Rust面试相关资料。<sup>[English]</sup>
 - [Rust设计模式](https://github.com/rust-unofficial/patterns): Rust 设计模式、反模式和惯用代码。<sup>[English]</sup>
 - [Comprehensive Rust](https://github.com/google/comprehensive-rust): 谷歌安卓团队使用的 Rust 课程。<sup>[English]</sup>
+- [Write a Toy VPN in Rust](https://write.yiransheng.com/vpn): 用Rust编写一个玩具VPN。<sup>[English]</sup>
+- [tiny-http](https://rust.code-maven.com/tiny-http): 使用tiny_http在Rust中构建web应用程序。<sup>[English]</sup>
+- [writing-a-jvm-in-rust](https://andreabergia.com/series/writing-a-jvm-in-rust/): 使用 Rust 实现一个 JVM。<sup>[English]</sup>
