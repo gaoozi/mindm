@@ -15,3 +15,8 @@
 - [tiny-http](https://rust.code-maven.com/tiny-http): 使用tiny_http在Rust中构建web应用程序。<sup>[English]</sup>
 - [writing-a-jvm-in-rust](https://andreabergia.com/series/writing-a-jvm-in-rust/): 使用 Rust 实现一个 JVM。<sup>[English]</sup>
 - [Rust 标准库特性指南](https://github.com/pretzelhammer/rust-blog/blob/master/posts/translations/zh-hans/tour-of-rusts-standard-library-traits.md): 包含 Rust 标准库中所有最流行、最常用的特性。<sup>[English]</sup>
+- [Command line apps in Rust](https://rust-cli.github.io/book/index.html#command-line-apps-in-rust): 关于如何使用Rust编程语言开发命令行应用程序。<sup>[English]</sup>
+- [Roguelike Tutorial in Rust + tcod](https://tomassedovic.github.io/roguelike-tutorial/): 关于如何使用Rust编程语言和libtcod库编写roguelike游戏的教程。<sup>[English]</sup>
+- [The Adventures of OS: Making a RISC-V Operating System using Rust](https://osblog.stephenmarz.com/): 操作系统的冒险：使用Rust制作RISC-V操作系统。<sup>[English]</sup>
+- [Hecto: Build your own text editor in Rust](https://www.flenker.blog/hecto/): 关于如何使用Rust构建文本编辑器。<sup>[English]</sup>
+- [Building a DNS server in Rust](https://github.com/EmilHernvall/dnsguide/blob/master/README.md): 使用Rust构建DNS服务器。<sup>[English]</sup>
