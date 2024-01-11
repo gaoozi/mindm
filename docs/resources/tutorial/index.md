@@ -19,4 +19,7 @@
 - 笨办法学Python: [中文版](https://www.kancloud.cn/kancloud/learn-python-hard-way/49864), [英文版](https://learnpythonthehardway.org/)
 - 笨办法学Python·续: [中文版](https://github.com/Kivy-CN/lmpythw-zh), [英文版](https://learncodethehardway.org/more-python-book/)
 - 笨办法学Linux: [中文版](https://github.com/wizardforcel/llthw-zh), [英文版](https://archive.fo/xDb8o)
-
+- 计算机自学指南: [https://github.com/PKUFlyingPig/cs-self-learning](https://github.com/PKUFlyingPig/cs-self-learning)
+- 清华大学计算机系课程攻略: [https://github.com/PKUanonym/REKCARC-TSC-UHT](https://github.com/PKUanonym/REKCARC-TSC-UHT)
+- 浙江大学课程攻略共享计划: [https://github.com/QSCTech/zju-icicles](https://github.com/QSCTech/zju-icicles)
+- Hello 算法: [https://github.com/krahets/hello-algo](https://github.com/krahets/hello-algo)
