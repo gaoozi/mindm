@@ -5,22 +5,26 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: '高子的知识宝库',
+			locales: {
+				root: {
+					label: '简体中文',
+					lang: 'zh-CN',
+				},
+			},
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/gaoozi',
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: '学习资料',
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
+						{ label: '编程语言', link: '/resources/lang/' },
+						{ label: '博客', link: '/resources/blog/' },
+						{ label: '社区', link: '/resources/community/' },
+						{ label: '周刊', link: '/resources/weekly/' },
 					],
-				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
-				},
+				}
 			],
 		}),
 	],

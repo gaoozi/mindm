@@ -1,36 +1,32 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: 高子的知识宝库
+description: 来过看到记录
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: 来到看见并记录
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/programming.svg
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: 这是入口
+      link: /resources/lang/
       icon: right-arrow
       variant: primary
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="记录" icon="pencil">
+		记录平时积累的各种有用的笔记、资料、工具等等内容，包括但不限于技术。
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="持续更新" icon="open-book">
+		本站将持续更新，当成一个长期项目维护，希望自己能够坚持住，也希望朋友们能在这找到有用或有趣的内容。
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
+	<Card title="博客" icon="rocket">
+		暂未完成搭建。
 	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="技术栈" icon="puzzle">
+		基于Astro框架以及starlight文档主题构建，部署于Github和Vercel。
 	</Card>
 </CardGrid>
