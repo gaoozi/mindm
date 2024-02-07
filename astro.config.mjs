@@ -26,6 +26,16 @@ export default defineConfig({
 					],
 				}
 			],
+			  head: [
+			    {
+			      tag: 'script',
+			      attrs: {
+			        src: 'https://umami.gaodb.cc/js/script.js',
+			        "data-domain": "gaoozi.cc",
+			        defer: true,
+			      },
+			    },
+			  ],
 		}),
 	],
 });
