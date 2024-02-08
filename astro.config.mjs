@@ -24,7 +24,11 @@ export default defineConfig({
 						{ label: '社区', link: '/resources/community/' },
 						{ label: '周刊', link: '/resources/weekly/' },
 					],
-				}
+				},
+        {
+          label: '工具',
+          link: '/tools/',
+        },
 			],
 			  head: [
 			    {
